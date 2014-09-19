@@ -1,0 +1,62 @@
+body {
+	background-color: Turquoise;
+}
+
+.body {
+	width: 90%;
+	height: 100%;
+	top:0%;
+	left:5%;
+	background-color: WhiteSmoke;
+	position: relative;
+}
+div.header h1 {
+	font-size: 3em;
+}
+h1 {
+	color: salmon;
+	font-weight: bold;
+}
+
+div.form {
+	width: 40%;
+	margin: auto;
+	background-color: salmon;
+	position: relative;
+	box-shadow: 7px 6px 16px;
+	border-radius: 5px;
+	border:	1px solid black;
+}
+
+form {
+	text-align: center;
+}
+input, textarea {
+	width: 60%;
+	margin: 10px;
+	right: 30%;
+	box-shadow: 1px 1px 5px inset;
+
+}
+form.div {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	width: 600px;
+}
+
+.form-hidden {
+	display: none;
+}
+.formToggle {
+	width:20%;
+	margin: auto;
+	padding-top: 30px;
+}
+button {
+	background-color: Turquoise;
+	color: white;
+	font-weight: bold;
+	margin: auto;
+	width: 40%;
+}

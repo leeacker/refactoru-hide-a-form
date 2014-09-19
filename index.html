@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Profile | Editable</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div class="body">
+		<div class="header">
+				<h1>My Profile</h1>
+		</div>
+
+		<div class="form form-hidden">
+			<form action="">
+				<div><h2>Name: </h2><input type="text" class="name"></div>
+				<div><h2>Bio: </h2><textarea name="bio" class="bio" id="" cols="30" rows="10"></textarea></div>
+				<div><h2>Favorite Books: </h2><textarea name="books" id="" cols="30" rows="10" class="books"></textarea></div>
+				<div><h2>Favorite JavaScript Libraries: </h2><textarea name="jsLibraries" id="" cols="30" rows="10" class="jsLibraries"></textarea></div>
+				<div><input type='submit' value='Submit' class="submit"></div>
+			</form>
+		</div>
+
+		<div class="formToggle show"><button>Show Form</button></div>
+
+		<div class="profile">
+			<div class="infoBox">
+				<h1>My Name:</h1>
+				<p class="pname"></p>
+			</div>
+			<div class="infoBox">
+				<h1>My Biography:</h1>
+				<p class="pbio"></p>
+			</div>
+			<div class="infoBox">
+				<h1>My Favorite Books: </h1>
+				<p class="pbooks"></p>
+			</div>
+			<div class="infoBox">
+				<h1>My Favorite JavaScript Libraries: </h1>
+				<p class="pjsLibraries"></p>
+			</div>
+
+		</div>
+	</div>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
